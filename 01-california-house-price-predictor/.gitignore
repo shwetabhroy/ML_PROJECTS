@@ -1,0 +1,26 @@
+# data
+data/*.csv
+data/*.parquet
+data/*.pkl
+
+# models
+*.pkl
+*.joblib
+*.model
+
+# mlflow
+mlruns/
+mlflow_runs/artifacts/
+
+# jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
+
+# env
+.env
+venv/
+.venv/
+
+# os
+.DS_Store
